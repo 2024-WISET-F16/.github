@@ -36,17 +36,19 @@ https://github.com/user-attachments/assets/e7f23256-6229-40f8-9512-c6af8109bf6c
 실내 조도 데이터셋을 사용하여 모델 훈련 <br/>
 조기종료 기법을 적용하여 160 에포크에서 종료 <br/>
 은닉층은 5개의 완전연결층(Fully Connected Layer)으로 구성하였으며 각 층은 128개의 노드로 이루어짐 <br/>
-Train Loss 18Lux, Test Loss 19Lux 달성 <br/>
 
 <br/>
 
-![image](https://github.com/user-attachments/assets/b17626f7-ab5f-4979-9cc5-8f406c163f98)
-![image](https://github.com/user-attachments/assets/07e547db-d1e7-4214-a737-d350e4a25122)
+<img src="https://github.com/user-attachments/assets/b17626f7-ab5f-4979-9cc5-8f406c163f98" width="400">
+<img src="https://github.com/user-attachments/assets/07e547db-d1e7-4214-a737-d350e4a25122" width="400">
+
 <br/>
 조도 산출 성능 최적화를 위해 하이퍼파라미터 튜닝 수행 <br/>
 배치 크기, 은닉층의 노드 수, 학습률을 다양하게 조합하여 실험 <br/>
 각 조합별 에포크 수는 10회, 손실함수는 평균절대오차(MAE)로 설정 <br/>
 배치 크기 64, 은닉층의 노드 수 64, 학습률 0.001일 때 최적의 성능을 보임 <br/>
+
+최종 결과 Train Loss 18Lux, Test Loss 19Lux 달성 <br/>
 
 
 ## 실시간 데이터 조회, SSE
