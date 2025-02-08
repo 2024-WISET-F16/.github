@@ -1,4 +1,4 @@
-# 자연광 유입 환경에서 최소 조도 센서 기반<br/>조도맵을 생성하는 딥러닝 모델
+# ☀️ 자연광 유입 환경에서 최소 조도 센서 기반<br/>조도맵을 생성하는 딥러닝 모델
 > **2024년 WISET 여대학원생 공학연구팀제 지원사업 심화과정**<br/>
 > **전산·컴퓨터 분과 2위**<br/><br/>
 > 연구과제명 : 자연광 유입 환경에서 최소 조도 센서 기반 조도맵을 생성하는 딥러닝 모델<br/>
@@ -8,14 +8,14 @@
 
 <br/>
 
-## Team
+## 💪 Team
 |<img src="https://avatars.githubusercontent.com/u/91596873?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/99874673?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/100507512?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/105366292?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
 |이유빈<br/>[@youbbin](https://github.com/youbbin)|장현희<br/>[@hh830](https://github.com/hh830)|곽민정<br/>[@kwakminjung](https://github.com/kwakminjung)|김유진<br/>[@yujinkimkimkim](https://github.com/yujinkimkimkim)|  
 
 <br/>
 
-## R&R
+## 👩‍💻 R&R
 | 파트 | 이름 | 역할 |
 | ------------ | -------------------------------------------------------------- | ----------------------------------------------------- |
 | Data, AI, BE | 이유빈(팀장) | 실내 조도 데이터 전처리 및 분석 <br/> 실내 조도 데이터베이스 구축 <br/> Pytorch 딥러닝 모델 설계 및 성능 최적화 <br/> | 
@@ -25,7 +25,7 @@
 
 <br/>
 
-## About The Project
+## 📋 About The Project
 <p align="middle" >
   <img src="https://github.com/user-attachments/assets/39376d7f-5f12-4e37-a2c7-57936568043a"/>
 </p>
@@ -34,24 +34,24 @@
 
 <br/>
 
-## 시연 영상
+## 👀 시연 영상
 https://github.com/user-attachments/assets/e7f23256-6229-40f8-9512-c6af8109bf6c
 
 <br/>
 
-## 개발 동기
-자연광 연계 제어 시스템에는 실내 조도 분포를 정확하게 파악하는 것이 필수적으로 필요합니다. <br/>
-기존에는 다수의 센서를 실내 지점마다 설치하여 조도를 측정했지만, 이는 네트워크 과부하로 인한 에너지 과소비, 측정 데이터 처리 및 분석 비용 증가 등의 문제를 유발합니다. <br/>
-따라서 센서 개수의 최소화 또는 센서리스(Sensorless) 기술 개발을 개발하여 에너지 절약, 시스템 간소화, 최소한의 데이터 활용, 자유로운 공간 활용 등의 효과를 얻고자 합니다. <br/>
+## 🔎 개발 동기
+자연광 연계 제어 시스템에는 실내 조도 분포를 정확하게 파악하는 것이 필수적으로 필요 <br/>
+기존에는 다수의 센서를 실내 지점마다 설치하여 조도를 측정했지만, 이는 네트워크 과부하로 인한 에너지 과소비, 측정 데이터 처리 및 분석 비용 증가 등의 문제를 유발한다. <br/>
+따라서 센서 개수의 최소화를 통해 에너지 절약, 시스템 간소화, 최소한의 데이터 활용, 자유로운 공간 활용 등의 효과를 얻고자 한다. <br/>
 
 <br/>
 
-## 기술 스택
+## ⚒️ 기술 스택
 Java, Spring Boot, FastAPI, Pytorch, MongoDB, Flutter, AWS, Docker, Nginx
 
 <br/>
 
-## 학습 데이터셋 구축
+## 🖥️ 학습 데이터셋 구축
 <img src="https://github.com/user-attachments/assets/2d52a012-5d5a-4200-aef1-db39d25fa2ea"/>
 - RGB 센서 기반 조도 센싱 디바이스 제작 <br/>
 - 공주대학교 실험실에 지점별 조도 데이터 수집 환경 설계 후 지점별 조도, 태양 위치 정보 수집 <br/>
@@ -60,7 +60,7 @@ Java, Spring Boot, FastAPI, Pytorch, MongoDB, Flutter, AWS, Docker, Nginx
   
 <br/>
 
-## DNN 모델 개발
+## 📌 DNN 모델 개발
 ![image](https://github.com/user-attachments/assets/0fd4e555-a339-471c-a8d6-57719aefc0c6)
 <br/>
 최소 조도 센서 데이터 및 태양의 위치와 거리별 조도 간의 관계를 학습하여 실내 상세 조도맵을 생성하는 딥러닝 모델 설계 <br/>
