@@ -52,7 +52,7 @@ Java, Spring Boot, FastAPI, Pytorch, MongoDB, Flutter, AWS, Docker, Nginx
 <br/>
 
 ## 🖥️ 학습 데이터셋 구축
-<img src="https://github.com/user-attachments/assets/2d52a012-5d5a-4200-aef1-db39d25fa2ea"/>
+<img src="https://github.com/user-attachments/assets/2d52a012-5d5a-4200-aef1-db39d25fa2ea"/> <br/>
 - RGB 센서 기반 조도 센싱 디바이스 제작 <br/>
 - 공주대학교 실험실에 지점별 조도 데이터 수집 환경 설계 후 지점별 조도, 태양 위치 정보 수집 <br/>
 - MongoDB 기반의 실내 조도 데이터베이스 구축 <br/>
@@ -63,10 +63,10 @@ Java, Spring Boot, FastAPI, Pytorch, MongoDB, Flutter, AWS, Docker, Nginx
 ## 📌 DNN 모델 개발
 ![image](https://github.com/user-attachments/assets/0fd4e555-a339-471c-a8d6-57719aefc0c6)
 <br/>
-최소 조도 센서 데이터 및 태양의 위치와 거리별 조도 간의 관계를 학습하여 실내 상세 조도맵을 생성하는 딥러닝 모델 설계 <br/>
-실내 조도 데이터셋을 사용하여 모델 훈련 <br/>
-조기종료 기법을 적용하여 160 에포크에서 종료 <br/>
-은닉층은 5개의 완전연결층(Fully Connected Layer)으로 구성하였으며 각 층은 128개의 노드로 이루어짐 <br/>
+- 최소 조도 센서 데이터 및 태양의 위치와 거리별 조도 간의 관계를 학습하여 실내 상세 조도맵을 생성하는 딥러닝 모델 설계 <br/>
+- 실내 조도 데이터셋을 사용하여 모델 훈련 <br/>
+- 조기종료 기법을 적용하여 160 에포크에서 종료 <br/>
+- 은닉층은 5개의 완전연결층(Fully Connected Layer)으로 구성하였으며 각 층은 128개의 노드로 이루어짐 <br/>
 
 <br/>
 
@@ -74,10 +74,12 @@ Java, Spring Boot, FastAPI, Pytorch, MongoDB, Flutter, AWS, Docker, Nginx
 <img src="https://github.com/user-attachments/assets/07e547db-d1e7-4214-a737-d350e4a25122" width="400">
 
 <br/>
-조도 산출 성능 최적화를 위해 하이퍼파라미터 튜닝 수행 <br/>
-배치 크기, 은닉층의 노드 수, 학습률을 다양하게 조합하여 실험 <br/>
-각 조합별 에포크 수는 10회, 손실함수는 평균절대오차(MAE)로 설정 <br/>
-배치 크기 64, 은닉층의 노드 수 64, 학습률 0.001일 때 최적의 성능을 보임 <br/>
 
-최종 결과 Train Loss 18Lux, Test Loss 19Lux 달성 <br/>
+- 조도 산출 성능 최적화를 위해 하이퍼파라미터 튜닝 수행
+- 배치 크기, 은닉층의 노드 수, 학습률을 다양하게 조합하여 실험
+- 각 조합별 에포크 수는 10회, 손실함수는 평균절대오차(MAE)로 설정
+- 배치 크기 64, 은닉층의 노드 수 64, 학습률 0.001일 때 최적의 성능을 보임
+
+
+→ 최종 결과 Train Loss 18Lux, Test Loss 19Lux 달성 <br/>
 
